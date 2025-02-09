@@ -9,7 +9,7 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "SILENT-SOBX-MD~vQwmCRIb#yejKvKsa-fVjLIHeGuMjIOQJZLDreSppownT6ELYmwI",
     CAPTION: process.env.CAPTION || "POWERED BY SILENTLOVER432",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-    AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "true",
+    AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
     READ_MESSAGE: process.env.READ_MESSAGE || "💚", // Added auto-read configuration
     MODE: process.env.MODE || "public",
     AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -30,7 +30,7 @@ module.exports = {
     READ_CMD: process.env.READ_CMD || "true",
     BOT_NAME: process.env.BOT_NAME || "MUTAITI_BOT",
     STATUS_REPLY: process.env.STATUS_REPLY || "false",
-    STATUS_REACT: process.env.STATUS_REACT || "falde",
+    STATUS_REACT: process.env.STATUS_REACT || "💚",
     ANTI_VV: process.env.ANTI_VV || "true",// true for anti once view 
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", // change it to 'log' if you want to resend deleted message in ib chat 
     OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
