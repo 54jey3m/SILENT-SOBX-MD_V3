@@ -6,12 +6,12 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "SILENT-SOBX-MD~vQwmCRIb#yejKvKsa-fVjLIHeGuMjIOQJZLDreSppownT6ELYmwI",
+    SESSION_ID: process.env.SESSION_ID || "SILENT-SOBX-MD~bJQQ1LCb#jogY-nRUQj4V_jdLDLXRZl1velU-ps9lWz6gxjhWphM",
     CAPTION: process.env.CAPTION || "POWERED BY SILENTLOVER432",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
-    READ_MESSAGE: process.env.READ_MESSAGE || "💚", // Added auto-read configuration
-    MODE: process.env.MODE || "public",
+    READ_MESSAGE: process.env.READ_MESSAGE || "false", // Added auto-read configuration
+    MODE: process.env.MODE || "private",
     AUTO_VOICE: process.env.AUTO_VOICE || "false",
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -19,14 +19,14 @@ module.exports = {
     ALIVE_MSG: process.env.ALIVE_MSG || "HII DEAR IM ONLINE I'M SILENT-SOBX-MD WHATSAPP BOT 😊♻️",
     ANTI_LINK: process.env.ANTI_LINK || "true",
     ANTI_BAD: process.env.ANTI_BAD || "true",
-    PREFIX: process.env.PREFIX || ".",
+    PREFIX: process.env.PREFIX || "!",
     FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
     FAKE_TYPING: process.env.FAKE_TYPING || "true",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
     AUTO_REACT: process.env.AUTO_REACT || "false",
     HEART_REACT: process.env.HEART_REACT || "false",
-    OWNER_REACT: process.env.OWNER_REACT || "true",
+    OWNER_REACT: process.env.OWNER_REACT || "false",
     READ_CMD: process.env.READ_CMD || "true",
     BOT_NAME: process.env.BOT_NAME || "MUTAITI_BOT",
     STATUS_REPLY: process.env.STATUS_REPLY || "false",
